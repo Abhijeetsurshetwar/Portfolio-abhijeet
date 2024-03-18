@@ -6,6 +6,7 @@
     <!--Bootstrap stylesheet below-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"><link rel="icon" type="image/png" href="https://thumbs.dreamstime.com/b/portfolio-icon-badge-style-white-background-portfolio-icon-badge-style-120988366.jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <title>Portfolio : Expressing and mentioning diffrent skills i have</title>
 
@@ -69,16 +70,16 @@
     <section id="skills"  class="portfolio-section">
         <h3 class="heading">SKILLS</h3>
 
-        <table class="tbl"  cellspacing="90px">
+        <table class="tbl"  cellspacing="90">
           <tr   valign= top>
-            <div class="borderskills">
-              <td  data-aos = "slide-right" cellspacing="90px">
+            <div class="borderskills" >
+              <td  data-aos = "slide-right" class="rd">
                 <h2 class="skill-subheading"> Languages</h2>
                 <p class="detailedskills"> Java,C,C++,Python,C#,JavaScript,HTML,CSS,SQL</p>
               </td>
             </div>
             <div class="borderskills">
-              <td width="50%" data-aos = "slide-right" cellspacing="90px">
+              <td width="50%" data-aos = "slide-left"  class="ld">
                 <h2 class="skill-subheading"> Api's And FrameWork</h2>
                 <p class="detailedskills"> Java,C,C++,Python,C#,JavaScript,HTML,CSS,SQL</p>
               </td>
@@ -86,13 +87,13 @@
             </tr>
           <tr   valign= top>
             <div class="borderskills">
-              <td width="50%" data-aos = "slide-right" cellspacing="90px">
+              <td width="50%" data-aos = "slide-right" class="rd" >
                 <h2 class="skill-subheading"> Tools</h2>
                 <p class="detailedskills"> Vs code,Git , Github, Mysql, Maevan</p>
               </td>
             </div>
             <div class="borderskills">
-              <td width="50%" data-aos = "slide-right" cellspacing="90px">
+              <td width="50%" data-aos = "slide-left" class="ld" >
                 <h2 class="skill-subheading"> Operating System</h2>
                 <p class="detailedskills"> Windows, Linux, Macos, Android ,Ubuntu</p>
               </td>
@@ -110,5 +111,11 @@
     <!--Bootstrap Script links Below-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:2000
+      });
+    </script>
+  </body>
 </html>
