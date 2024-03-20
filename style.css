@@ -347,3 +347,51 @@ background-color: rgb(59, 211, 122);
   scale: (1.2);
 
 }
+
+/*Contact Section CSS */
+#contact{
+	height: 500px;
+	width: 100%;
+	background-color: whitesmoke;
+	padding: 20px;
+	border: none ;
+}
+.contact-main-container{
+	height: 400px;
+	width: 80%;
+	display: flex;
+	margin-left: 10%;
+}
+.contact-child{
+	height: 400px;
+	width: 50%;
+}
+.contact-info{
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin-top: 70px;
+}
+.contact-info li{
+	margin-top: 20px;
+}
+.contact-form{
+  padding: 15px;
+  padding-left: 70px;
+  margin-top: 50px;
+}
+#footer{
+	height: 150px;
+	width: 100%;
+	background-color: grey;
+	
+}
+#footerinfo{
+	padding: 105px;
+	font-size: 25px;
+	line-height: 20px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: black;
+}
