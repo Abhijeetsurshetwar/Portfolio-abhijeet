@@ -9,6 +9,7 @@ html{
 }
 body{
   background-color: #FBEAEB;
+  overflow-x: hidden;
 }
 .navigation-bar{
     background-color: transparent;
@@ -23,7 +24,7 @@ body{
     height: 800px; 
     border: 2px solid black;
     width: 100%;
-
+    border: none;
 }
 
 .portfolio-section h3{
@@ -277,9 +278,9 @@ background-color: #FEE715;
 #skills{
   height: 600px;
   width: 100%;
-  background-color: white;
+  background-color: #FBEAEB;
   border: none;  
-  color: darkslateblue;
+  color: #2F3C7E;
   margin-top:50px ;
 
 }
@@ -307,7 +308,7 @@ background-color: #FEE715;
 }
 .skill-subheading{
   text-align: center;
-  color: rgb(59, 211, 122);
+  color: #2F3C7E;
   font-family: sans-serif;
   font-weight: bolder;
   font-size: 25px;
@@ -336,17 +337,22 @@ background-color: #FEE715;
 
 .card-title{
 
+  text-decoration: none;
   font-size: 25px;
   text-align: center ;
   cursor: pointer;
+  color:  #2F3C7E;
 }
 
 .card{
   transition-duration: 1s; 
   height: 500px;
+  background-color:  #FBEAEB;
+  border: none;
 }
 .card:hover{
   scale: (1.2);
+  text-decoration: none;
 
 }
 
@@ -354,7 +360,7 @@ background-color: #FEE715;
 #contact{
 	height: 500px;
 	width: 100%;
-	background-color: whitesmoke;
+  background-color:  #FBEAEB;
 	padding: 20px;
 	border: none ;
 }
@@ -376,6 +382,7 @@ background-color: #FEE715;
 }
 .contact-info li{
 	margin-top: 20px;
+  text-decoration: none;
 }
 .contact-form{
   padding: 15px;
@@ -406,6 +413,7 @@ background-color: #FEE715;
   justify-content: center;
   gap: 1rem;
   margin-left: 30%;
+  margin-top: 2%;
 }
 
 .gallery-card {
