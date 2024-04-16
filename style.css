@@ -21,7 +21,7 @@ overflow-x: hidden;
 
 .portfolio-section{
 
-  height: 800px; 
+  height:100vh; 
   border: 2px solid black;
   width: 100%;
   border: none;
@@ -114,8 +114,8 @@ color: transparent;
   height: 600px;
   border: 2px solid red;
   text-align: left !important;
-  margin-top: 50px;
-  margin-left: 5px;
+  margin-top: 90px;
+  margin-left: 30px;
   border: none;
   
 }
@@ -124,6 +124,7 @@ color: transparent;
   font-size: 50px;
   font-weight: bolder;
   color: #2F3C7E;
+
 }
 
 #name{
@@ -143,7 +144,7 @@ width: 108px;
 height: 50px;
 font-size: 20px;
 font-weight: bold;
-margin: 30px 40px;
+margin: 30px 20px;
 
 }
 .rsbtn:hover{
@@ -335,6 +336,11 @@ width: 100%;
 margin-top: 10px;
 }
 
+#project-title{
+  text-decoration: none;
+  color: #2F3C7E;
+  font-weight: bold;
+}
 .card-title{
 
 text-decoration: none;
