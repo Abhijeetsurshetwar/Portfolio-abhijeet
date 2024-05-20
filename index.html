@@ -6,7 +6,8 @@
 
     <!--Bootstrap stylesheet below-->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"><link rel="icon" type="image/png" href="https://thumbs.dreamstime.com/b/portfolio-icon-badge-style-white-background-portfolio-icon-badge-style-120988366.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://thumbs.dreamstime.com/b/portfolio-icon-badge-style-white-background-portfolio-icon-badge-style-120988366.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -15,7 +16,7 @@
 </head>
 <body>
     <div class="navigation-bar ">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg  ">
           <a class="navbar-brand " href="#home"><spam class="brand tracking-in-expand ">Abhijeet</spam></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -63,14 +64,14 @@
           <img id="myimage" src="Abhijeet-img.jpg" alt="my image" >
         </div>
         <div class="aboutinfo">
-          <h3 class="abouthead">ABOUT</h3>
-          <p class="career-goal">Highly motivated Graduate Engineering student with technical proficiency in Web development and strong problem-solving abilities. Seeking to contribute to innovative projects, leveraging Website development. Committed to continuous learning, aiming to make a
+          <h3 class="abouthead sub-title" style="color: white;"  >About</h3>
+          <p class="career-goal">Highly motivated Graduate Engineering student with technical proficiency in Web development and strong <span style="color: red;"> problem-solving </span> abilities. Seeking to contribute to innovative projects, leveraging Website development. Committed to continuous learning, aiming to make a
             significant impact in the field.</p>
           </div>
         </div>
       </section>
       
-      <h1 align="center" class="abouthead">Gallery</h1>
+      <h1 class="abouthead sub-title" style="color: white;">Gallery</h1>
           <section class="gallery"> 
             <div class="gallery-card"><img src="G1.jpg" alt=""></div>
             <div class="gallery-card"><img src="G2.jpg" alt=""></div>
@@ -81,7 +82,7 @@
           
           
     <section id="skills"  class="portfolio-section">
-      <h3 class="heading">SKILLS</h3>
+      <h3 class="heading sub-title" style="font-weight: normal;">Skills</h3>
       
       <table class="tbl"  cellspacing="90">
         <tr   valign= top>
@@ -115,64 +116,73 @@
         </table>
     </section>
     <section id="projects" class="portfolio-section">
-        <h3 style="text-align: center; color:  #2F3C7E;" class="heading">PROJECTS</h3>
-        <div class="projectcards">
-          <div class="card-deck">
-          <div class="card">
-            <img src="Project Lotus.png" class="card-img-top" alt="Project Lotus.png">
-            <div class="card-body">
-              <h5 class="card-title"><a href="https://github.com/Abhijeetsurshetwar/lotus-Automobile.git" target="_blank" id="project-title">Automobile Website</a></h5>
-              <p class="card-text">The Automobile website which tells more about the parts used in automobile industries . The Project is Sponsered by comapany <b>Lotus Automobile</b> for the Display of there of Parts It is a dynamic and user friendly food delivery website using modern web technologies. Designed to streamline the food ordering process, enhance user experience,and optimize restaurant operations. Designed and implemented an intuitive front-end interface using <b>HTML, CSS, and JavaScript, </b>ensuring a seamless and responsive user experience across devices. </p>
-            
+      <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Personal Portfolio</h2>
+                    <p>Designed personal portfolio with the help of HTML, CSS, JavaScript</p>
+                    <a href="" target="_blank">Website ></a>
+                    &emsp;
+                    <a href="https://github.com/Abhijeetsurshetwar/Portfolio-abhijeet" target="_blank">Source code</a>
+                </div>
+                <div>
+                  <i class="fa-solid fa-bowl-food"></i>
+                    <h2>Food Delivery Website</h2>
+                    <p>Designed to Get the food From Differnet Restaurants with HTML, CSS, and JavaScript</p>
+                    <a href="https://abhijeetsurshetwar.github.io/Food-Delivery-Website/" target="_blank">Website ></a>
+                    &emsp;
+                    <a href="https://github.com/Abhijeetsurshetwar/Food-Delivery-Website" target="_blank">Source code</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Lotus Automation</h2>
+                    <p>Developed dynamic web-Site with Java, HTML, CSS, and MySQL.</p>
+                    <a href="https://abhijeetsurshetwar.github.io/lotus-Automobile/">Website </a>
+                    &emsp;
+                    <a href="https://github.com/Abhijeetsurshetwar/lotus-Automobile ">Source Code ></a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>TextUtils</h2>
+                    <p>Designed to Manipulates the text Using React,React.js</p>
+                    <a href="https://github.com/Abhijeetsurshetwar/TextUtils" target="_blank">Source Code ></a>
+                </div>
             </div>
-          </div>
-          <div class="card" style="height: 500px;">
-            <img src="Project Food Website.png" class="card-img-top" alt="Project Food Website.png">
-            <div class="card-body">
-              <h5 class="card-title"><a href="https://github.com/Abhijeetsurshetwar/Food-Delivery-Website.git" target="_blank" id="project-title">Unique Palate</a></h5>
-              <p class="card-text">It is a dynamic and user friendly food delivery website using modern web technologies. Designed to streamline the food ordering process, enhance user experience,and optimize restaurant operations. Designed and implemented an intuitive front-end interface using <b>HTML, CSS, and JavaScript, </b>ensuring a seamless and responsive user experience across devices. </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="Project Notebook.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"><a href="#" target="_blank" id="project-title">Inotebook</a></h5>
-              <p class="card-text">Inote React is a feature-rich note-taking application built with the React framework. It offers an intuitive interface for creating, editing, and organizing notes. Users can customize notes with rich text formatting, categorize them with folders and tags, and easily search for specific content. The application provides synchronization across devices, reminders, collaboration features, and robust security measures. With its versatility and user-friendly design, Inote React aims to enhance productivity and organization for users in both personal and professional contexts.</p>
-            </div>
-          </div>
         </div>
-        </div>
-        
-    </section>
+    </div>
     <section id="contact" class="portfolio_section">
-      <h1 class="heading" style="color:  #2F3C7E;">CONTACT</h1>
-     <div class="contact-main-container">
-       <div class="contact-child">
-         <ul class="contact-info" type="none">
-          <li><i class="fa-solid fa-envelope"></i>&nbsp <a class="a" style="text-decoration: none; color: #2F3C7E;" href="#" target="_blank"> abhijeetsurshetwar@gamil.com</i></a></li>
-          <li><i class="fa-brands fa-linkedin-in">&nbsp </i><a class="a" style="text-decoration: none; color: #2F3C7E;"href="https://www.linkedin.com/in/Abhijeetsurshetwar" target="_blank">https://www.linkedin.com/in/abhijeet-surshetwar-960a4123a</a></li>
-          <li ><i class="fa-brands fa-github"></i>&nbsp <a class="a" style="text-decoration: none; color: #2F3C7E;"href="https://github.com/Abhijeetsurshetwar" target="_blank">Abhijeetsurshetwar</a></li>
-          <li><i class="fa-solid fa-phone" ></i>&nbsp <i class="a" style="color: #2F3C7E;">9518505699</i></li>
-         </ul>
-         
-         
+     <div class="contact-main-container" style="display: flex;">
+       <div class="contact-child" style="width: 50%;">
+          <h1 class="sub-title contact-me">Contact me</h1>
+          <p><i class="fa-solid fa-envelope"></i> abhijeetsurshetwar@gmail.com</p>
+          <p><i class="fa-solid fa-mobile-screen-button"></i> +91 9518505699</p>
+
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/in/abhijeetsurshetwar/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Abhijeetsurshetwar" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/abhijeetsurshetwar04/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/ASurshetwar" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
        </div>
-       <div class="contact-child contact-form">
+       <div class="contact-child contact-form" style="width: 100%; height: 100%;">
          <form>
-   <div class="form-group">
-     <label for="exampleInputEmail1" style="color: #2F3C7E; font-size: medium; font-weight: bolder;">Email address</label>
-     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-   </div>
-   <div class="form-group">
-     <label for="exampleInputPassword1" style="color: #2F3C7E; font-size: medium; font-weight: bolder;">Comment</label>
-     <textarea class="form-control" id="exampleInputPassword1"></textarea>
-   </div>
-   <div class="form-group form-check">
-     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-     <label class="form-check-label" for="exampleCheck1" style="color: #2F3C7E; font-size: medium; font-weight: bolder;">Check me out</label>
-   </div>
-   <button type="submit" class="btn btn-primary rsbtn" >Submit</button>
- </form>
+              <div class="form-group">
+                <label for="exampleInputEmail1" style="color: #ffffff; font-size: medium; font-weight: bolder;">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" style="color: white; font-size: medium; font-weight: bolder;">Comment</label>
+                <textarea class="form-control" id="exampleInputPassword1"></textarea>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1" style="color:white; font-size: medium; font-weight: bolder;">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary rsbtn" >Submit</button>
+            </form>
        </div>
      </div>
     </section>
