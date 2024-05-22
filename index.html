@@ -54,7 +54,8 @@
           <span id="hname">Hii</span><br>
           <span id="hname">My name is </span><br>
           <span id="name">Abhijeet</span><br>
-          <span id="hname">I am a <span id="name">Full Stack Developer</span></span><br>
+          <span id="hname">I am a <span style="" class="auto-input"></span></span><br>
+          <p></p>
           <a href="Abhijeet's Resume (full stack developer).pdf" target="_blank"><button class="rsbtn">  Resume </button></a>
       </div>
     </section>
@@ -65,7 +66,7 @@
         </div>
         <div class="aboutinfo">
           <h3 class="abouthead sub-title" style="color: white;"  >About</h3>
-          <p class="career-goal">Hello, I'm Abhijeet, an enthusiastic Frontend Developer currently working at Test Yantra Pvt. Ltd as a Software Developer Intern. With a strong foundation in Frontend Technologies ( <span style="color: red;"> HTML, CSS, JS, Bootstrap, React JS </span>), my passion for web development led me to specialize in creating engaging user experiences. Utilizing my skills in HTML, CSS, JavaScript, and React JS, I bring ideas to life with creativity and precision. I also have experience with modern tools like Tailwind CSS and Figma. Let's connect and turn your web visions into reality!</p>
+          <p class="career-goal">Hello, I'm Abhijeet, an enthusiastic Frontend Developer currently working at Test Yantra Pvt. Ltd as a Software Developer Intern. With a strong foundation in Frontend Technologies ( <span style="color: #ff004f;"> HTML, CSS, JS, Bootstrap, React JS </span>), my passion for web development led me to specialize in creating engaging user experiences. Utilizing my skills in HTML, CSS, JavaScript, and React JS, I bring ideas to life with creativity and precision. I also have experience with modern tools like Tailwind CSS and Figma. Let's connect and turn your web visions into reality!</p>
           </div>
         </div>
       </section>
@@ -195,6 +196,16 @@
         duration:2000
       });
     </script>
+    <!--Auto Input Script-->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+      var typed = new Typed(".auto-input",{
+          strings : ["Frontend Web Developer","UI/UX Developer","Video Editor"],
+          typeSpeed:40,
+          backSpeed:20,
+          loop:true
+      })
+  </script>   
     <script src="https://kit.fontawesome.com/ba89537714.js" crossorigin="anonymous"></script>
   </body>
 </html>

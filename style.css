@@ -100,7 +100,7 @@ a{
   top:50px;
   width: 700px;
   height: 600px;
-  border: 2px solid red;
+  border: 2px solid #ff004f;
   text-align: left !important;
   margin-top: 90px;
   margin-left: 30px;
@@ -117,15 +117,21 @@ a{
 
 #name{
 font-family: "PT Sans", sans-serif;
-color:red;
+color:#ff004f;
 font-size: 45px;
 font-weight: bolder;
+}
+
+.auto-input{
+  color: #ff004f; 
+  font-weight:bold;
+  font-size: 30px;
 }
 
 .rsbtn{
 border: none ;
 transition: 1s;
-background-color: #101820;
+background-color:#ff004f;
 color: white;
 border-radius:solid #101820;
 border-radius: 7px;
@@ -137,8 +143,8 @@ margin: 30px 20px;
 font-variant:small-caps ;
 }
 .rsbtn:hover{
-color: #101820;
-background-color: white;
+color: white;
+background-color:#ff004f;
 letter-spacing: 2px ;
 }
 
@@ -278,7 +284,6 @@ width:50%;
 padding: 40px;
 border-radius: 20px;
 transition-duration: 1.5s;
-
 }
 
 .heading{
@@ -288,7 +293,7 @@ font-size: 50px;
 }
 .skill-subheading{
 text-align: center;
-color: red;
+color: #ff004f;
 font-family: sans-serif;
 font-weight: bolder;
 font-size: 25px;
@@ -409,7 +414,7 @@ margin-top: 50px;
 }
 
 .contact-left p i{
-  color: red;
+  color: #ff004f;
   margin-right: 10px;
   font-size:25px;
 }
@@ -431,7 +436,7 @@ margin-top: 50px;
 }
 
 .social-icons a:hover i{
-  color: red;
+  color: #ff004f;
   transform: translateY(-5px);
 }
 
