@@ -83,10 +83,11 @@ a{
 .main-container{
   position: relative;
   top: 65px;
+  margin-left: 75px;
 }
 
 #home{
-  background-image: url(BckImg.png);
+ /* background-image: url(BckImg.png); */
   background-repeat: no-repeat;
   background-position:80% 60% ;
   background-size: 36%;
@@ -129,18 +130,32 @@ font-weight: bolder;
 }
 
 .rsbtn{
+display: inline-block;
 border: none ;
 transition: 1s;
 background-color:#ff004f;
 color: white;
 border-radius:solid #101820;
 border-radius: 7px;
-width: 108px;
+width: 150px;
+padding: 10px 15px;
 height: 50px;
-font-size: 20px;
-font-weight: bold;
+font-size: .8 rem;
 margin: 30px 20px;
-font-variant:small-caps ;
+}
+.rsbtn-2{
+  display: inline-block;
+  transition: 1s;
+  border: 2px solid #ff004f;
+  background-color:#000000;
+  color: white;
+  border-radius:solid #101820;
+  border-radius: 7px;
+  width: 150px;
+  padding: 10px 15px;
+  height: 50px;
+  font-size: .8 rem;
+  margin: 30px 20px;
 }
 .rsbtn:hover{
 color: white;
@@ -164,6 +179,9 @@ margin-top: 5px;
 
 /*About Section*/
 
+.sub-title{
+  color: white;
+}
 #about{
 border: none;
 }
@@ -460,29 +478,18 @@ margin-top: 50px;
   border-radius: 0px;
   box-shadow: none; 
 }
-#footer{
-height: 150px;
-width: 100%;
-background-color: grey;
 
+.form-group{
+  color: #ffffff; 
+  font-size: medium;
+  font-weight: bolder;
 }
-#footerinfo{
-padding: 105px;
-font-size: 25px;
-line-height: 20px;
-text-align: center;
-font-family: sans-serif;
-font-weight: bolder;
-color: black;
-}
-
-
 .gallery {
 max-width: 720px;
 height: 360px;
 display: flex;
 justify-content: center;
-gap: 1rem;
+gap: 1rem;  
 margin-left: 30%;
 margin-top: 2%;
 }
@@ -513,3 +520,147 @@ opacity: 0.5;
 }
 
 
+
+/* Responsive CSS */
+@media only screen and (max-width: 600px) {
+  /* General Adjustments */
+  .header-text {
+    margin-top: 30%;
+    font-size: 16px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+
+  /* Navigation */
+  nav .ham {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+    font-weight: 600;
+  }
+  nav ul .ham {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+  /* About Section */
+  .about-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutimage {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+  #myimage {
+    margin-left: 0;
+    height: auto;
+    width: 80%;
+  }
+  .abouthead {
+    font-size: 30px;
+    color: white;
+  }
+  .career-goal {
+    font-size: 16px;
+    text-indent: 0;
+  }
+  .aboutinfo {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  /* Skills Section */
+  #skills {
+    height: auto;
+  }
+  .tbl {
+    margin-left: 0;
+    width: 100%;
+  }
+  .tbl tr td {
+    width: 100%;
+    padding: 20px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .skill-subheading {
+    font-size: 20px;
+  }
+
+  /* Projects Section */
+  .projects-list {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+
+  /* Contact Section */
+  .contact-main-container {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .contact-child {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-info {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .contact-form {
+    padding: 15px;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .contact-left, .contact-right {
+    flex-basis: 100%;
+  }
+  .contact-left p {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  /* Gallery */
+  .gallery {
+    margin-left: 0;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .gallery-card {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  #footer {
+    height: auto;
+    padding: 20px;
+  }
+  #footerinfo {
+    padding: 20px;
+    font-size: 16px;
+  }
+}
