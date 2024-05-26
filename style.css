@@ -12,6 +12,7 @@ background-color: black;
 overflow-x: hidden;
 }
 .navigation-bar{
+  padding: 20px 10%;
   background-color: transparent;
   backdrop-filter: blur(10px);
   position: fixed;
